@@ -108,13 +108,13 @@ const App = () => {
               >
                 {isVimMode ? "Disable Vim" : "Enable Vim"}
               </button>{" "}
-              <span className="text-xs text-gray-400">Ctrl+M</span>
+              <span className="text-sm text-gray-400">Ctrl + M</span>
             </div>
             <div className="flex items-center">
               <button onClick={runCode} className="bg-green-600 px-3 py-1 rounded">
                 Run ▶
               </button>
-              <span className="text-xs text-gray-400">Ctrl+M</span>
+              <span className="text-sm text-gray-200">Ctrl + Enter</span>
             </div>
           </div>
           <div className="flex-1 ">
